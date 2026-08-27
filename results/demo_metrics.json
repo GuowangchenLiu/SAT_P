@@ -1,0 +1,14 @@
+{
+  "dataset": "daily_inputs_2022_2024.csv",
+  "n_daily_records": 819,
+  "n_observations_used": 221,
+  "note": "Demo metrics use the partial public dataset and are not the manuscript calibration metrics.",
+  "satp": {
+    "r2_squared_correlation": 0.5451830779343503,
+    "nse": 0.5328271066340544
+  },
+  "raw": {
+    "r2_squared_correlation": 0.19742498799019,
+    "nse": 0.1780159050322283
+  }
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use SAT-P, please cite the associated manuscript and this software release."
+type: software
+title: "SAT-P: a process-informed river phosphorus model for cold regions"
+version: 0.1.0
+date-released: 2026-08-27
+authors:
+  - family-names: Liu
+    given-names: Guowangchen
+  - family-names: Li
+    given-names: Dongfeng
+repository-code: "https://github.com/GuowangchenLiu/SAT_P"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Increasing phosphorus concentrations in the cryosphere-fed river on the Tibetan Plateau: a modelling perspective"
+  authors:
+    - family-names: Liu
+      given-names: Guowangchen
+    - family-names: Li
+      given-names: Dongfeng
+

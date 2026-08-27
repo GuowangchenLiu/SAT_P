@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sat-p"
+version = "0.1.0"
+description = "A process-informed model of total phosphorus concentration in cryosphere-fed rivers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Guowangchen Liu" },
+  { name = "Dongfeng Li" }
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7"
+]
+
+[project.optional-dependencies]
+calibration = ["pymoo>=0.6"]
+
+[project.urls]
+Repository = "https://github.com/GuowangchenLiu/SAT_P"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

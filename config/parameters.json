@@ -1,0 +1,19 @@
+{
+  "description": "Example parameter set from the supplied SAT-P working implementation. Recalibrate for other datasets or preprocessing choices.",
+  "minimum_tpc_mg_l": 0.005,
+  "satp": {
+    "a1": 7.999734979797554,
+    "a2": -3.21668323822766,
+    "a3": 1.720283173010538,
+    "b1": 1.7676862019337876,
+    "b2": -3.084831781852798,
+    "b3": -1.062409950673931,
+    "b4": 6.646202958636288,
+    "b5": -0.9249592908381247
+  },
+  "raw": {
+    "a1": 0.0009965472737034006,
+    "b1": 0.8266430949619638
+  }
+}
+
