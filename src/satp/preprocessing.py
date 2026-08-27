@@ -10,7 +10,7 @@ import pandas as pd
 
 @dataclass(frozen=True)
 class PreprocessingConfig:
-    """Configuration matching the predictor definitions in the manuscript."""
+    """Configuration for the documented public predictor definitions."""
 
     temperature_window_days: int = 8
     discharge_increase_days: int = 2
@@ -81,4 +81,3 @@ def prepare_daily_inputs(
         0.0,
     )
     return frame
-

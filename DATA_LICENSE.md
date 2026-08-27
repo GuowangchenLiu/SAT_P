@@ -10,5 +10,4 @@ Suggested attribution:
 
 > Liu, G., and Li, D. SAT-P demonstration dataset for daily phosphorus modeling in a cryosphere-fed river, version 0.1.0.
 
-The demonstration dataset is a partial release and is not the complete analysis archive used for the manuscript.
-
+The demonstration dataset is a partial release intended for testing and teaching use.

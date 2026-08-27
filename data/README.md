@@ -2,7 +2,7 @@
 
 `demo/daily_inputs_2022_2024.csv` is a partial daily dataset supplied to demonstrate the SAT-P workflow. It contains 819 records from 3 April 2022 to 29 June 2024 and 349 non-missing TPC observations before quality filtering.
 
-The file is intentionally limited in temporal coverage. It does not contain the complete 2000–2023 analysis archive used for the long-term results in the manuscript.
+The file is intentionally limited in temporal coverage and is provided as a compact example for testing the workflow.
 
 ## Sources
 
@@ -20,4 +20,3 @@ The demonstration file is distributed under CC BY 4.0. See [../DATA_LICENSE.md](
 ## Missing values
 
 Missing discharge or TPC values are represented by empty CSV fields. Do not replace missing TPC values with zeros. The preprocessing retains complete climate records to calculate rolling and cumulative predictors.
-

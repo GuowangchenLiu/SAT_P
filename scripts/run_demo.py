@@ -81,7 +81,7 @@ def main() -> None:
         "dataset": args.input.name,
         "n_daily_records": int(len(prepared)),
         "n_observations_used": int(observed.sum()),
-        "note": "Demo metrics use the partial public dataset and are not the manuscript calibration metrics.",
+        "note": "Demo metrics use the partial public dataset and supplied example parameters.",
         "satp": {
             "r2_squared_correlation": squared_correlation(
                 prepared.loc[observed, "TP"], prepared.loc[observed, "satp_tpc"]
